@@ -24,30 +24,29 @@
 				<table width="588" border="0" align="center" >     
 				<tr>
 			   <td>Nome :</td>
-			   <td><input type="text" name="nome" id="nome" value="<?php echo $dados['nome'] ?>" required placeholder="Nome Completo" /></td>
+			   <td><input  class="form-control" type="text" name="nome" id="nome" value="<?php echo $dados['nome'] ?>" required placeholder="Nome Completo" /></td>
 			 </tr>         
 			 <tr>
 			   <td>Rua </td>
-			   <td><input type="text" name="rua" id="rua" value="<?php echo $dados['rua'] ?>" required placeholder="Rua" /></td>
+			   <td><input  class="form-control" type="text" name="rua" id="rua" value="<?php echo $dados['rua'] ?>" required placeholder="Rua" /></td>
 			 </tr>
 			 <tr>
 			   <td> N° Casa  :</td>
-			   <td><input type="text" name="num_casa" value="<?php echo $dados['num_casa'] ?>" required placeholder="N° Casa" /></td>
+			   <td><input  class="form-control" type="text" name="num_casa" value="<?php echo $dados['num_casa'] ?>" required placeholder="N° Casa" /></td>
 			 </tr>
 			 <tr>
 			   <td>Bairro:</td>
-			   <td><input type="text" name="bairro" value="<?php echo $dados['bairro'] ?>" required placeholder="bairro" /></td>
+			   <td><input  class="form-control" type="text" name="bairro" value="<?php echo $dados['bairro'] ?>" required placeholder="bairro" /></td>
 			 </tr>
 			 <tr>
 			   <td>Telefone:</td>
-			   <td><input type="text" name="telefone" value="<?php echo $dados['telefone'] ?>" required placeholder="Telefone" /></td>
+			   <td><input  class="form-control" type="text" name="telefone" value="<?php echo $dados['telefone'] ?>" required placeholder="Telefone" /></td>
 			 </tr>
 			 <tr>
 			   <td>Celular:</td>
-				<td> <input type="text" name="celular" value="<?php echo $dados['celular'] ?>" required placeholder="celular" /></td>
+				<td> <input  class="form-control" type="text" name="celular" value="<?php echo $dados['celular'] ?>" required placeholder="celular" /></td>
 			 </tr>
-			 <tr>
-			   <td height="22"></td>
+			 <tr>			  
 			   <td>
 				 <br>
 				  <button id="salvar" type="button" class="btn btn-success">Salvar</button> 
